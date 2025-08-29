@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости Нетологии</title>
+    <style>
+        .news {
+            width: 960px; 
+            margin: 0 auto; 
+            display: flex; 
+            flex-wrap: wrap; 
+        }
+        
+        .card {
+            width: 320px; 
+            padding: 50px 40px; 
+            box-sizing: border-box; 
+        }
+        
+        .card-date {
+            display: block; 
+            margin-bottom: 20px; 
+        }
+        
+        
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 10px;
+        }
+        
+        .card-header {
+            margin-bottom: 15px;
+        }
+        
+        .card-date {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .card-name {
+            margin: 0;
+            color: #2c3e50;
+            font-size: 18px;
+            line-height: 1.4;
+        }
+        
+        .card-content p {
+            margin: 0;
+            color: #555;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="news">
+        <article class="card">
+            <div class="card-header">
+                <time class="card-date" datetime="2018-08-27">13 days ago</time>
+                <h3 class="card-name">Своя тусовка: афиша событий на сентябрь 2018</h3>
+            </div>
+            <div class="card-content">
+                <p>Каждый месяц «Нетология» рассказывает о лучших мероприятиях по маркетингу, менеджменту, дизайну, информационным технологиям и управлению персоналом.</p>
+            </div>
+        </article>
+        <article class="card">
+            <div class="card-header">
+                <time class="card-date" datetime="2018-08-27">13 days ago</time>
+                <h3 class="card-name">Разбираемся в дизайнерских профессиях</h3>
+            </div>
+            <div class="card-content">
+                <p>Алексей Бородкин, product lead и глава Гильдии вольных проектировщиков, рассказал на открытом занятии Нетологии, как разобраться в дизайнерских направлениях и выбрать профессию.</p>
+            </div>
+        </article>
+        <article class="card">
+            <div class="card-header">
+                <time class="card-date" datetime="2018-08-27">13 days ago</time>
+                <h3 class="card-name">Скоринг социальных сетей: чат-боты на смену HRD</h3>
+            </div>
+            <div class="card-content">
+                <p>Вячеслав Золотухин, идеолог и основатель системы управления задачами EvoDesk, написал колонку для блога Нетологии о том, как меняется рынок HR.</p>
+            </div>
+        </article>	
+    </div>
+</body>
+</html>

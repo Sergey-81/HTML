@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-студия - Услуги</title>
+    <style>
+        .services {
+            width: 1260px; 
+            margin: 0 auto; 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+        }
+        
+        .card {
+            width: 420px; 
+            padding: 160px 30px 30px 30px; 
+            box-sizing: border-box; 
+            text-align: center; 
+        }
+        
+        
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 10px;
+        }
+        
+        .card-name {
+            margin: 0 0 15px 0;
+            color: #2c3e50;
+            font-size: 18px;
+            line-height: 1.4;
+        }
+        
+        .card-content p {
+            margin: 0;
+            color: #555;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="services">
+        <div class="card">
+            <h3 class="card-name">Разработка концепции и дизайна</h3>
+            <div class="card-content">
+                <p>Мы следим за тем, чтобы дизайн наряду с фирменным стилем заказчика отражал современные тенденции и учитывал функциональные требования к интерфейсу. Команда дизайнеров проектирует интуитивно понятный интерфейс, прорабатывая логику работы каждого элемента.</p>
+            </div>	
+        </div>
+        
+        <div class="card">
+            <h3 class="card-name">Верстка макетов</h3>
+            <div class="card-content">
+                <p>Фронтенд-разработчики создают кроссбраузерную блочную верстку с продуманной структурой каркаса сайта или адаптивную верстку. Ведущий дизайнер проекта курирует процесс, чтобы сверстанные страницы соответствовали утвержденным заказчиком макетам.</p>
+            </div>	
+        </div>
+        
+        <div class="card">
+            <h3 class="card-name">Разработка системы управления сайтом и тестирование</h3>
+            <div class="card-content">
+                <p>На этом этапе с нуля разрабатывается система управления сайтом (CMS), которая решает бизнес-задачи конкретного заказчика. Мы разрабатываем сайты на базе фреймворков: Django на языке Python, Play на языке Scala.</p>
+            </div>	
+        </div>
+    </div>
+</body>
+</html>
